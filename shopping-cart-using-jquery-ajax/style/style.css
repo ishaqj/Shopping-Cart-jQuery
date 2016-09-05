@@ -1,0 +1,126 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #E5E5E5;
+}
+
+#wrapper-header {
+  width: 100%;
+  background-color: #00BBFF;
+  border-bottom: 2px solid #B2B2B2;
+  box-shadow: 1px 1px 1px 1px #888888;
+  -webkit-box-shadow: 1px 1px 1px 1px #888888;
+  -moz-box-shadow: 1px 1px 1px 1px #888888;
+}
+
+header {
+	width:940px;
+	padding:10px;
+	margin:0 auto;
+	min-height: 100px;
+}
+
+#container {
+	background:#fff;
+	min-height:500px;
+	width:920px;
+	padding:20px;
+	margin:10px auto;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	 border: 1px solid #ccc;
+
+}
+
+a { color: #E91E63; }
+
+
+p {
+  font-size: 16px;
+  color: #666;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: #333;
+
+}
+
+article {
+ font-family: sans-serif;
+}
+
+nav {
+	float:left;
+	margin: 50px;
+
+}
+
+nav ul {
+padding:0;
+}
+
+nav ul li {
+	display:inline;
+	margin-right:10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	color: #000;
+	border-bottom: 1px solid #000;
+
+}
+nav ul li.current {
+	font-weight:bold;
+}
+
+nav ul li a.last {
+	border-right:0;
+}
+
+.logo {
+	font:2em Arial;
+	top: 0;
+	left: 0;
+	padding-left: 20px;
+	color:#fff;
+	position: absolute;
+}
+
+
+.clear {
+	clear:both;
+}
+
+ h1{font-size:32px;text-align: center; padding-top:30px; padding-bottom: 80px; font-family: 'Palatino Linotype'; text-transform: uppercase;}
+table{width: auto;
+  td{vertical-align: top;}
+}
+
+#cart{border: 1px solid #999;border-radius:4px;padding:4px;width: 300px;min-height:200px;float:right;font-size: smaller;
+  h2{border-bottom:1px solid #ccc;font-weight: bold;margin-bottom:12px;}
+  #status{font-style: italic;}
+} 
+
+label{font-size:small;}
+//input,
+//select{font-size:large;}
+//output{font-style:italic;color:#999;}
+.validation-message{font-style: italic; color:#999;font-size: smaller;}
+.success{background: #afa;padding:1em;}
+.error{background: #D80808;padding:1em;}
+.working{background: #ccc;padding:1em;}
+
+.cform-columns-2{
+  .cform-column-1{float:left;width:50%;}
+  .cform-column-2{float:left;width:50%;}
+  .cform-buttonbar{clear:both;background-color:#ccc;padding:1em;border:1px solid #aaa;
+    p{margin-bottom:0;}
+  }
+}
